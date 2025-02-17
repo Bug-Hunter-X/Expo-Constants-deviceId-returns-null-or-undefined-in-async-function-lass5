@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Constants.deviceId` within an asynchronous function before the device's information is fully loaded.  This often happens when you try to access the `deviceId` early in the app's lifecycle, such as within `useEffect` hook in React Native without proper checks.
